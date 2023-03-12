@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Auto Body Shop</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		/* Add your custom CSS styles here */
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Auto Body Shop</h1>
+		<nav>
+			<ul>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#about">About Us</a></li>
+				<li><a href="#contact">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="services">
+			<h2>Our Services</h2>
+			<ul>
+				<li>Collision Repair</li>
+				<li>Dent Removal</li>
+				<li>Painting</li>
+				<li>Frame Straightening</li>
+				<li>Detailing</li>
+			</ul>
+		</section>
+		<section id="about">
+			<h2>About Us</h2>
+			<p>We are a family-owned and operated auto body shop that has been serving the community for over 20 years. Our experienced technicians use the latest equipment and techniques to provide high-quality repairs and exceptional customer service. We take pride in our work and guarantee your satisfaction.</p>
+		</section>
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+				<input type="submit" value="Send">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; Auto Body Shop 2023</p>
+	</footer>
+</body>
+</html>
